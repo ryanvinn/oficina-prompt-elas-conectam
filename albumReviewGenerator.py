@@ -15,7 +15,8 @@ PROMPT = """
   A planilha deve ser gerada em formato CSV, contendo 30 avaliações e variedade
   de gêneros.
   Cada comentário deve estar em apenas uma coluna. Em hipótese alguma divida um
-  comentário em duas ou mais colunas.
+  comentário em duas ou mais colunas. Ou seja, insira apenas dois separadores
+  por linha.
 """
 CSV_FILENAME = "avaliacoes_albuns.csv"
 MODEL_NAME = "gemini-2.0-flash"
@@ -23,6 +24,9 @@ MODEL_NAME = "gemini-2.0-flash"
 response = google.models.generate_content(
   model=MODEL_NAME,
   contents=PROMPT,
+  config = {
+    "temperature": 1,
+  }
 )
 
 csv_content = response.text.strip().replace('```csv\n', '').replace('```', '')

@@ -35,6 +35,9 @@ MODEL_NAME = "gemini-2.0-flash"
 response = google.models.generate_content(
   model=MODEL_NAME,
   contents=PROMPT,
+  config = {
+    "temperature": 0.5,
+  }
 )
 
 csv_content = response.text.strip().replace('```csv\n', '').replace('```', '')
