@@ -25,7 +25,7 @@ curl "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:g
 - Temperatura;
 
 ## Referências do material
-https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering/
-https://dair-ai.thinkific.com/courses/prompt-engineering-devs
-https://developers.google.com/machine-learning/resources/prompt-eng
-https://arxiv.org/abs/2406.06608
+- https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering/
+- https://dair-ai.thinkific.com/courses/prompt-engineering-devs
+- https://developers.google.com/machine-learning/resources/prompt-eng
+- https://arxiv.org/abs/2406.06608
