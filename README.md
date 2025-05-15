@@ -11,6 +11,7 @@ curl "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:g
 3. Instalar a biblioteca google-genai com `pip install google-genai`.
 
 ## Resumo do conteúdo teórico
+- [Link do material](https://drive.google.com/file/d/11dpJJisKI0unFcJ9SZMBLjSHGKvag3Vn/view?pli=1)
 - Prompt: instrução à IA Generativa;
 - Bom prompt: claro, específico, estruturado e iterativo;
 - Iteração: |-> ideia de prompt -> execução -> análise de resultados -> ajustes ->|;
